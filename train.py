@@ -1,10 +1,10 @@
 from ultralytics import YOLO
 
 if __name__ == "__main__":
-    # load a pretrained model (recommended for training)
+    # 加载预训练模型
     model = YOLO("yolov8n.pt")
 
-    # Train the model
+    # 开始训练
     model.train(
         data="dataset\loopy.yaml",
         epochs=1000,
