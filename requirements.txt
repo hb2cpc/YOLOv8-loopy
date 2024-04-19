@@ -1,0 +1,5 @@
+ultralytics
+labelimg
+pandas
+numpy
+opencv-python
