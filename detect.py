@@ -2,7 +2,7 @@ from ultralytics import YOLO
 
 
 if __name__ == "__main__":
-    # 加载YOLOv8模型
+    # 加载训练好的模型
     model = YOLO("best.pt")
     # 视频路径
     file_path = "loopy-test.mp4"
